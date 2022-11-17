@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import { AiOutlineAim } from "react-icons/ai";
 
-import styles from "../styles/cursor.module.css";
+import styles from "../styles/Cursor.module.css";
 
 const Cursor = ({ isOverMenu }: { isOverMenu: boolean }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
