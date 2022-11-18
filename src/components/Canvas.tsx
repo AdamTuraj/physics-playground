@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { Canvas as ThreeCanvas } from "@react-three/fiber";
 import { Physics } from "@react-three/cannon";
 
+import ReactGA from "react-ga";
+
 import CustomizeMenu from "../components/CustomizeMenu";
 import StartScreen from "../components/StartScreen";
 
@@ -104,6 +106,8 @@ const Canvas = () => {
   const onClick = () => {
     setIsOverMenu(false);
     setHasStarted(true);
+
+    ReactGA.event({ category: "Game", action: "Entered Game" });
   };
 
   const updateSetting = (setting: string, value: string) => {
