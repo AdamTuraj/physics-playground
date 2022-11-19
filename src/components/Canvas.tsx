@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Canvas as ThreeCanvas } from "@react-three/fiber";
 import { Physics } from "@react-three/cannon";
 
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 import CustomizeMenu from "../components/CustomizeMenu";
 import StartScreen from "../components/StartScreen";
