@@ -16,10 +16,10 @@ const StartScreen = ({ onClick }: { onClick: () => void }) => {
           <BsFillMouse2Fill /> Right click to spawn a shape
         </p>
         <p>
-          <TiKeyboard /> Press "1" to spawn a circle
+          <TiKeyboard /> Press "1" to spawn circles
         </p>
         <p>
-          <TiKeyboard /> Press "2" to spawn a box
+          <TiKeyboard /> Press "2" to spawn boxes
         </p>
         <p>
           <TiKeyboard /> Press "r" to reset the simulation
